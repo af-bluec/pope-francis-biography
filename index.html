@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pope Francis - Biography</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'lato': ['Lato', 'sans-serif'],
+                        'opensans': ['Open Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        'papal-red': '#B31942',
+                        'vatican-gold': '#FFD700',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-opensans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-lato font-bold text-papal-red">
+                    Pope Francis
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="hover:text-papal-red transition-colors">About</a>
+                    <a href="#early-life" class="hover:text-papal-red transition-colors">Early Life</a>
+                    <a href="#jesuit" class="hover:text-papal-red transition-colors">Jesuit Years</a>
+                    <a href="#papacy" class="hover:text-papal-red transition-colors">Papacy</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 bg-gradient-to-br from-white via-gray-50 to-vatican-gold/10">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Pope_Francis_Korea_Haemi_Castle_19.jpg" 
+                         alt="Pope Francis" 
+                         class="rounded-lg shadow-2xl max-w-full h-auto transform hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0 md:pl-12">
+                    <h1 class="text-4xl md:text-6xl font-lato font-bold text-gray-900 mb-4">
+                        Pope Francis
+                    </h1>
+                    <p class="text-2xl text-gray-600 mb-8 font-lato">
+                        Head of the Catholic Church (2013-2025)
+                    </p>
+                    <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-papal-red">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <p class="font-semibold text-papal-red"><i class="fas fa-user mr-2"></i>Born</p>
+                                <p class="text-lg">Jorge Mario Bergoglio</p>
+                                <p class="text-gray-600">17 December 1936</p>
+                            </div>
+                            <div class="space-y-2">
+                                <p class="font-semibold text-papal-red"><i class="fas fa-crown mr-2"></i>Papacy Began</p>
+                                <p class="text-lg">13 March 2013</p>
+                            </div>
+                            <div class="space-y-2">
+                                <p class="font-semibold text-papal-red"><i class="fas fa-church mr-2"></i>Papacy Ended</p>
+                                <p class="text-lg">21 April 2025</p>
+                            </div>
+                            <div class="space-y-2">
+                                <p class="font-semibold text-papal-red"><i class="fas fa-history mr-2"></i>Predecessor</p>
+                                <p class="text-lg">Benedict XVI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-lato font-bold text-center mb-16 relative">
+                About Pope Francis
+                <div class="absolute w-24 h-1 bg-papal-red left-1/2 transform -translate-x-1/2 mt-4"></div>
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                    Pope Francis was the head of the Catholic Church and sovereign of the Vatican City State from 2013 until his death in 2025. He was the first Jesuit pope, the first from the Americas and from the Southern Hemisphere, and the first born outside of Europe since the 8th-century Syrian pope Gregory III.
+                </p>
+                <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                    Throughout his public life, Francis was noted for his humility, emphasis on God's mercy, international visibility as pope, concern for the poor, and commitment to interreligious dialogue.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Early Life Section -->
+    <section id="early-life" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-lato font-bold text-center mb-16 relative">
+                Early Life
+                <div class="absolute w-24 h-1 bg-papal-red left-1/2 transform -translate-x-1/2 mt-4"></div>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Jorge_Mario_Bergoglio_attended_a_salesian_school_between_1948_and_1949.jpg/250px-Jorge_Mario_Bergoglio_attended_a_salesian_school_between_1948_and_1949.jpg" 
+                         alt="Young Jorge Mario Bergoglio" 
+                         class="rounded-lg shadow-2xl w-full transform hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="space-y-6">
+                    <p class="text-xl text-gray-700 leading-relaxed">
+                        Born Jorge Mario Bergoglio on 17 December 1936 in Flores, Buenos Aires, he was the eldest of five children of Mario José Bergoglio and Regina María Sívori. His father was an Italian immigrant accountant from Piedmont, and his mother was a housewife born in Buenos Aires to a family of northern Italian origin.
+                    </p>
+                    <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                        In his youth, Bergoglio worked as a chemical technician before beginning seminary studies. He recovered from a severe illness in his youth, which resulted in the removal of part of one of his lungs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jesuit Years Section -->
+    <section id="jesuit" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-lato font-bold text-center mb-16 relative">
+                Jesuit Years
+                <div class="absolute w-24 h-1 bg-papal-red left-1/2 transform -translate-x-1/2 mt-4"></div>
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-50 p-10 rounded-lg shadow-xl border-l-4 border-papal-red">
+                    <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                        Bergoglio entered the Society of Jesus in 1958 and was ordained to the priesthood in 1969. He served as the Jesuit provincial superior in Argentina from 1973 to 1979.
+                    </p>
+                    <div class="border-l-4 border-vatican-gold pl-6 my-8 bg-white p-6 rounded-r-lg shadow-inner">
+                        <p class="text-xl italic text-gray-600">
+                            "As a Jesuit, Bergoglio was known for his humility, doctrinal conservatism, and commitment to social justice."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Papacy Section -->
+    <section id="papacy" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-lato font-bold text-center mb-16 relative">
+                Papacy (2013-2025)
+                <div class="absolute w-24 h-1 bg-papal-red left-1/2 transform -translate-x-1/2 mt-4"></div>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <div class="bg-white p-8 rounded-lg shadow-xl">
+                        <h3 class="text-2xl font-lato font-bold mb-6 text-papal-red">Key Achievements</h3>
+                        <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-papal-red mt-1 mr-2"></i>
+                            <span>Made action on climate change a leading focus of his papacy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-papal-red mt-1 mr-2"></i>
+                            <span>Committed to worldwide abolition of the death penalty</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-papal-red mt-1 mr-2"></i>
+                            <span>Promoted interreligious dialogue and peace initiatives</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-papal-red mt-1 mr-2"></i>
+                            <span>Reformed Vatican finances and bureaucracy</span>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-white p-8 rounded-lg shadow-xl">
+                        <h3 class="text-2xl font-lato font-bold mb-6 text-papal-red">Legacy</h3>
+                        <p class="text-xl text-gray-700 mb-6 leading-relaxed">
+                        Francis was known for his less formal approach to the papacy, choosing to reside in the Domus Sanctae Marthae guesthouse rather than the papal apartments. He emphasized mercy, humility, and service to the poor throughout his papacy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center space-y-6">
+                <div class="flex justify-center mb-8">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Coat_of_arms_of_Franciscus.svg/200px-Coat_of_arms_of_Franciscus.svg.png" 
+                         alt="Pope Francis Coat of Arms" 
+                         class="h-24 w-auto">
+                </div>
+                <p class="text-xl mb-4 font-lato">Pope Francis (1936-2025)</p>
+                <p class="text-lg text-gray-400 italic">
+                    "Miserando atque eligendo" - His papal motto
+                </p>
+                <div class="pt-8 text-sm text-gray-500">
+                    <p>Content sourced from Wikipedia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
